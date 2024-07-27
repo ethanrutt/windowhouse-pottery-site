@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Table = styled.table`
   justify-content: center;
-  width: 90%;
+  width: 95%;
   margin: auto;
 `;
 
@@ -13,7 +13,7 @@ export const Tr = styled.tr`
 export const Td = styled.td`
   height: 100%;
   width: 33%;
-  padding: 10px;
+  padding: 1vw;
 `
 
 export const Image = styled.img`
