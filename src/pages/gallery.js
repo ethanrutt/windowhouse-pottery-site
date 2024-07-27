@@ -8,7 +8,6 @@ import planter_set2 from "./images/planter_set2.jpg";
 import round_bowl from "./images/round_bowl.jpg";
 import rounded_bowl from "./images/rounded_bowl.jpg";
 import rounded_vase from "./images/rounded_vase.jpg";
-import small_mug from "./images/small_mug.jpg";
 
 import {
   Table,
