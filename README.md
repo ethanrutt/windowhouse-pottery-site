@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Windowhouse Pottery Site Repository
+* checkout the website [here](https://windowhouse-pottery.onrender.com/)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
