@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   Table,
-  Image,
+  TableDataImage,
 } from "./styled-components/GalleryElements";
 import {
   CenteredH1,
@@ -16,35 +16,35 @@ const Gallery = () => {
       <Table>
         <tr>
           <td>
-            <Image src="images/bowl_and_lid.jpg" />
+            <TableDataImage src="images/bowl_and_lid.jpg" />
           </td>
           <td>
-            <Image src="images/cherry_bowl.jpg" />
+            <TableDataImage src="images/cherry_bowl.jpg" />
           </td>
           <td>
-            <Image src="images/curved_planter.jpg" />
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <Image src="images/round_bowl.jpg" />
-          </td>
-          <td>
-            <Image src="images/planter_set1.jpg" />
-          </td>
-          <td>
-            <Image src="images/rounded_vase.jpg" />
+            <TableDataImage src="images/curved_planter.jpg" />
           </td>
         </tr>
         <tr>
           <td>
-            <Image src="images/large_mug.jpg" />
+            <TableDataImage src="images/round_bowl.jpg" />
           </td>
           <td>
-            <Image src="images/rounded_bowl.jpg" />
+            <TableDataImage src="images/planter_set1.jpg" />
           </td>
           <td>
-            <Image src="images/planter_set2.jpg" />
+            <TableDataImage src="images/rounded_vase.jpg" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <TableDataImage src="images/large_mug.jpg" />
+          </td>
+          <td>
+            <TableDataImage src="images/rounded_bowl.jpg" />
+          </td>
+          <td>
+            <TableDataImage src="images/planter_set2.jpg" />
           </td>
         </tr>
       </Table>
