@@ -1,7 +1,7 @@
 import React from "react";
 import {
   CenteredH1
-} from "./styled-components/CommonElements";
+} from "../components/Common/CommonElements";
 
 const About = () => {
   return (
