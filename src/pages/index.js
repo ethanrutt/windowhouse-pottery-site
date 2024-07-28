@@ -9,7 +9,9 @@ const Home = () => {
   return (
     <>
       <CenteredH1>HOME</CenteredH1>
-      <CenteredImage src="images/windowhouse_logo.jpg"/>
+      <CenteredImage src="images/windowhouse_logo.png"/>
+      <div style={{ height: 100 }}></div>
+      <CenteredImage src="images/kim_house.jpg"/>
       <div style={{ height: 100 }}></div>
       <P>
         Kimberly is a hobby potter developing her art one pot at a time.

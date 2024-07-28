@@ -9,7 +9,7 @@ const About = () => {
   return (
     <>
       <CenteredH1>ABOUT</CenteredH1>
-      <CenteredImage src="images/windowhouse_logo.jpg"/>
+      <CenteredImage src="images/windowhouse_logo.png"/>
       <div style={{ height: 100 }}></div>
       <P>
         Something I always wanted to try was throwing clay on a wheel, so much
