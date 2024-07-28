@@ -1,9 +1,12 @@
 import React from "react";
+import {
+  CenteredH1
+} from "../components/Common/CommonElements";
 
 const About = () => {
   return (
     <>
-      <h1>About</h1>
+      <CenteredH1>ABOUT</CenteredH1>
     </>
   );
 };
