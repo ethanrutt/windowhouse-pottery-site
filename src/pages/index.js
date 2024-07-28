@@ -1,17 +1,13 @@
 import React from 'react';
+import {
+  CenteredH1
+} from "./styled-components/CommonElements";
 
 const Home = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        justifyContent: 'centre',
-        alignItems: 'centre',
-        height: '100vh'
-      }}
-    >
-      <h1>Home</h1>
-    </div>
+    <>
+      <CenteredH1>HOME</CenteredH1>
+    </>
   );
 };
 

@@ -11,8 +11,6 @@ import rounded_vase from "./images/rounded_vase.jpg";
 
 import {
   Table,
-  Tr,
-  Td,
   Image,
 } from "./styled-components/GalleryElements";
 import {
@@ -23,41 +21,41 @@ import {
 const Gallery = () => {
   return (
     <>
-      <CenteredH1>Gallery</CenteredH1>
+      <CenteredH1>GALLERY</CenteredH1>
       <Table>
-        <Tr>
-          <Td>
+        <tr>
+          <td>
             <Image src={bowl_and_lid} />
-          </Td>
-          <Td>
+          </td>
+          <td>
             <Image src={cherry_bowl} />
-          </Td>
-          <Td>
+          </td>
+          <td>
             <Image src={curved_planter} />
-          </Td>
-        </Tr>
-        <Tr>
-          <Td>
-            <Image src={large_mug} />
-          </Td>
-          <Td>
-            <Image src={planter_set1} />
-          </Td>
-          <Td>
-            <Image src={planter_set2} />
-          </Td>
-        </Tr>
-        <Tr>
-          <Td>
+          </td>
+        </tr>
+        <tr>
+          <td>
             <Image src={round_bowl} />
-          </Td>
-          <Td>
-            <Image src={rounded_bowl} />
-          </Td>
-          <Td>
+          </td>
+          <td>
+            <Image src={planter_set1} />
+          </td>
+          <td>
             <Image src={rounded_vase} />
-          </Td>
-        </Tr>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <Image src={large_mug} />
+          </td>
+          <td>
+            <Image src={rounded_bowl} />
+          </td>
+          <td>
+            <Image src={planter_set2} />
+          </td>
+        </tr>
       </Table>
     </>
   );
