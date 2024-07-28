@@ -6,20 +6,23 @@ import {
     Routes,
     Route,
 } from "react-router-dom";
+import { BackgroundImageDiv } from "./components/Common/CommonElements";
 import Home from "./pages";
 import About from "./pages/about";
 import Gallery from "./pages/gallery"
 
 function App() {
     return (
-        <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/gallery" element={<Gallery />} />
-            </Routes>
-        </Router>
+        <BackgroundImageDiv>
+            <Router>
+                <Navbar />
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="/about" element={<About />} />
+                        <Route path="/gallery" element={<Gallery />} />
+                    </Routes>
+            </Router>
+        </BackgroundImageDiv>
     );
 }
 
