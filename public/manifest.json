@@ -3,7 +3,7 @@
   "name": "Windowhouse Pottery showcase website",
   "icons": [
     {
-      "src": "windowhouse_logo.jpg",
+      "src": "images/windowhouse_logo.jpg",
       "type": "image/jpg",
       "sizes": "597x566"
     }

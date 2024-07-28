@@ -8,7 +8,7 @@ export const Table = styled.table`
   }
 `;
 
-export const Image = styled.img`
+export const TableDataImage = styled.img`
   max-height: 100%;
   max-width: 100%;
   transition: 0.5s;
