@@ -58,3 +58,13 @@ body {
     A container for the images
     on the home page
 ============================ */
+.home_img_container {
+    display: flex;
+    align-items: center;
+}
+
+/* ========== ELEMENTS ========== */
+.home_img_container__img {
+    width: 30%;
+    height: 10rem;
+}
