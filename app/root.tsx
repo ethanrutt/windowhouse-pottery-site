@@ -7,10 +7,10 @@ import {
     Scripts,
 } from "@remix-run/react";
 
-import appStylesHref from "./app.css?url"
+import styles from "./styles.css"
 
 export const links: LinksFunction = () => [
-    { rel: "stylesheet", href: appStylesHref },
+    { rel: "stylesheet", href: styles },
 ];
 
 
