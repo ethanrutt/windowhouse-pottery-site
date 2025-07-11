@@ -1,0 +1,57 @@
+/* ========== BLOCK ==========
+   .nav
+   A top navigation bar
+============================ */
+.nav {
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, .05);
+    padding-inline: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* ---------- MODIFIER ----------
+   .nav--fixed
+   Sticks the nav to the top
+-------------------------------- */
+.nav--fixed {
+    position: fixed;
+    inset-block-start: 0;
+    inset-inline: 0;
+}
+
+/* ========== ELEMENTS ========== */
+.nav__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: clamp(1rem, 3vw, 2.5rem);
+}
+
+.nav__item {
+    /* No extra styles needed, but scoped in case you add dropdowns later */
+}
+
+.nav__link {
+    display: block;
+    padding-block: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    transition: color .2s ease-in-out;
+}
+
+.nav__link:hover,
+.nav__link:focus-visible {
+    color: #0077ff;
+}
+
+/* Optional: Push page content down so it isn’t hidden behind fixed nav */
+body {
+    scroll-margin-top: 60px;
+    /* height of .nav (adjust if you change padding) */
+    padding-top: 60px;
+}

@@ -1,9 +1,18 @@
+import { LinksFunction } from "@remix-run/node";
 import {
     Links,
     Meta,
+    NavLink,
     Outlet,
     Scripts,
 } from "@remix-run/react";
+
+import appStylesHref from "./app.css?url"
+
+export const links: LinksFunction = () => [
+    { rel: "stylesheet", href: appStylesHref },
+];
+
 
 export default function App() {
     return (
@@ -17,9 +26,20 @@ export default function App() {
                 <Links />
             </head>
             <body>
-                <h1>Hello world!</h1>
+                <nav className="nav nav--fixed">
+                    <ul className="nav__list">
+                        <li className="nav__item">
+                            <NavLink className="nav__link" to="/">Home</NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink className="nav__link" to="/about">About</NavLink>
+                        </li>
+                        <li className="nav__item">
+                            <NavLink className="nav__link" to="/gallery">Gallery</NavLink>
+                        </li>
+                    </ul>
+                </nav>
                 <Outlet />
-
                 <Scripts />
             </body>
         </html>
