@@ -7,7 +7,7 @@ import {
     Scripts,
 } from "@remix-run/react";
 
-import styles from "./styles.css"
+import styles from "./styles.css?url"
 
 export const links: LinksFunction = () => [
     { rel: "stylesheet", href: styles },
