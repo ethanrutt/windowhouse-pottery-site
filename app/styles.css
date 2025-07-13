@@ -3,6 +3,9 @@ body {
     scroll-margin-top: 60px;
     /* height of .nav (adjust if you change padding) */
     padding-top: 60px;
+    background-color: #f7fffa;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
 }
 
 /* ========= BLOCK =========
@@ -54,17 +57,53 @@ body {
 }
 
 /* ========= BLOCK =========
-    .home_img_container
-    A container for the images
-    on the home page
+    .footer
+    The footer of the website on all pages
 ============================ */
-.home_img_container {
+.footer {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
 }
 
 /* ========== ELEMENTS ========== */
-.home_img_container__img {
-    width: 30%;
-    height: 10rem;
+.footer__logo {
+    width: 20%;
+}
+
+/* ========= BLOCK =========
+    .home_intro_container
+    A container for the elements on the home page
+============================ */
+.home_intro_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    gap: 10%;
+}
+
+@media (max-width: 768px) {
+    .home_intro_container {
+        flex-direction: column;
+    }
+}
+
+/* ========== ELEMENTS ========== */
+.home_intro_container__img {
+    width: 33%;
+    height: auto;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, .2);
+}
+
+.home_intro_container__h1 {
+    text-align: center;
+    margin: auto;
+    color: rgb(169, 89, 78);
 }

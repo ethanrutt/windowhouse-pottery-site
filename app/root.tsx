@@ -7,7 +7,9 @@ import {
     Scripts,
 } from "@remix-run/react";
 
-import styles from "./styles.css?url"
+import styles from "./styles.css?url";
+
+import logo from "./images/windowhouse_logo.png";
 
 export const links: LinksFunction = () => [
     { rel: "stylesheet", href: styles },
@@ -40,6 +42,17 @@ export default function App() {
                     </ul>
                 </nav>
                 <Outlet />
+                <footer className="footer">
+                    <img className="footer__logo" src={logo} alt="Windowhouse Logo" />
+                    <div className="footer__contact">
+                        <p><strong>Email:</strong> contact@example.com</p>
+                        <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                        <p><strong>Address:</strong> 123 Main St, City, Country</p>
+                    </div>
+                    <div>
+                        <p>contact me</p>
+                    </div>
+                </footer>
                 <Scripts />
             </body>
         </html>
