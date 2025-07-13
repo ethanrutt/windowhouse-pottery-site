@@ -49,9 +49,6 @@ export default function App() {
                         <p><strong>Phone:</strong> +1 (123) 456-7890</p>
                         <p><strong>Address:</strong> 123 Main St, City, Country</p>
                     </div>
-                    <div>
-                        <p>contact me</p>
-                    </div>
                 </footer>
                 <Scripts />
             </body>
